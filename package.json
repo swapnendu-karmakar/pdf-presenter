@@ -7,11 +7,9 @@
     "client"
   ],
   "scripts": {
-    "dev": "npm --prefix client run dev",
-    "build": "npm --prefix client run build",
-    "lint": "npm --prefix client run lint",
-    "preview": "npm --prefix client run preview",
-    "server": "npm --prefix server start",
-    "server:dev": "npm --prefix server run dev"
+    "dev": "npm run dev --workspace=client",
+    "build": "npm run build --workspace=client",
+    "lint": "npm run lint --workspace=client",
+    "preview": "npm run preview --workspace=client"
   }
 }
