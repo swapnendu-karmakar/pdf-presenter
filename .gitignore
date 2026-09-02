@@ -1,0 +1,9 @@
+node_modules/
+dist/
+client/dist/
+server/uploads/*.pdf
+server/uploads/*.json
+.env
+.env.local
+.vercel
+*.log
